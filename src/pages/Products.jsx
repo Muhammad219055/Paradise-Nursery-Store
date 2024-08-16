@@ -20,7 +20,7 @@ import Sunflower from '../assets/Sunflower.jpg';
 import Daisy from '../assets/Daisy.jpg';
 import Marigold from '../assets/Marigold.jpg';
 import Footer from '../components/Footer';
-
+import CartIcon from '../components/CartIcon';
 const Products = () => {
   const aromaticPlants = [
     {
@@ -179,6 +179,7 @@ const Products = () => {
               <Section sectionTitle="Ornamental Plants" plants={ornamentalPlants} />
       </div>
       <Footer />
+      <CartIcon/>
     </div>
   )
 }

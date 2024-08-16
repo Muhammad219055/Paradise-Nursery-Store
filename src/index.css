@@ -532,3 +532,49 @@ p{
   display: flex;
   justify-content: flex-end;
 }
+.number-of-items{
+  background-color: red;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 10px;
+  padding: 1.5px;
+  height: 10px;
+  border-radius: 50%;
+  text-align: center;
+  color: white;
+  position: relative;
+  top: 10px;
+  left: 5px;
+}
+.cart-icon {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 10px;
+  position: fixed;
+  bottom: 10px;    
+  right: 10px;    
+  cursor: pointer;
+  z-index: 1000;   
+}
+.after-add-to-cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 4px;
+}
+.remove-icon, .add-icon{
+  cursor: pointer;
+}
+.item-quantity-cart{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid;
+  gap: 8px;
+}
+.item-quantity-cart button{
+  padding: 0px;
+}
